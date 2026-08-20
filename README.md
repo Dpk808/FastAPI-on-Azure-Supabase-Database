@@ -67,7 +67,7 @@ Enabled the admin user on the ACR and copied the login server, username, and pas
 Authenticated Docker locally against the ACR using the copied credentials.
 
 ```bash
-docker login <acr-login-server>
+docker login <acr-login-server> -u <username> -p <password>
 ```
 
 ![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/1d%20Login%20to%20Azure%20ACR.png)
