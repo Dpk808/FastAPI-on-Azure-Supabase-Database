@@ -70,7 +70,7 @@ Authenticated Docker locally against the ACR using the copied credentials.
 docker login <acr-login-server>
 ```
 
-![image alt](1d Login to Azure ACR.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/1d%20Login%20to%20Azure%20ACR.png)
 
 ---
 
@@ -83,7 +83,7 @@ docker buildx build --platform linux/amd64 -t <acr-login-server>/fastapi-backend
 docker push <acr-login-server>/fastapi-backend:v1
 ```
 
-![image alt](1e Build and Push the backend docker image amd64 to the ACR.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/1e%20Build%20and%20Push%20the%20backend%20docker%20image%20amd64%20to%20the%20ACR.png)
 
 ---
 
@@ -91,7 +91,7 @@ docker push <acr-login-server>/fastapi-backend:v1
 
 Set the backend's environment variables (e.g. `DATABASE_URL`, `CORS_ORIGINS`) in the Azure Container App configuration.
 
-![image alt](1h Env Setup.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/1h%20Env%20Setup.png)
 
 ---
 
@@ -99,7 +99,7 @@ Set the backend's environment variables (e.g. `DATABASE_URL`, `CORS_ORIGINS`) in
 
 Enabled external ingress on the backend Container App and set the target port to match the app (e.g. `8000`).
 
-![image alt](1i Ingress Setup.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/1i%20Ingress%20Setup.png)
 
 ---
 
@@ -107,7 +107,7 @@ Enabled external ingress on the backend Container App and set the target port to
 
 Created the project tables on Supabase.
 
-![image alt](1j Tables were created on supabase for database.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/1j%20Tables%20were%20created%20on%20supabse%20for%20database.png)
 
 ---
 
@@ -115,7 +115,7 @@ Created the project tables on Supabase.
 
 Copied the ORM connection string from Supabase to use as the backend's `DATABASE_URL`.
 
-![image alt](k Connection Url copied from supabase-ORM connection.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/1k%20Connection%20Url%20copied%20from%20supabase-ORM%20sonnection.png)
 
 ---
 
@@ -123,7 +123,7 @@ Copied the ORM connection string from Supabase to use as the backend's `DATABASE
 
 Updated the placeholder/dummy environment variable values in the Azure Container App with the real Supabase connection string and other config.
 
-![image alt](1l Env values in azure container apps were replaced with previous dummy values.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/1l%20Env%20values%20in%20azure%20container%20apps%20were%20replaced%20with%20previous%20dummy%20values.png)
 
 ---
 
@@ -131,7 +131,7 @@ Updated the placeholder/dummy environment variable values in the Azure Container
 
 Verified the backend Container App was up and reachable at its Azure-provided URL.
 
-![image alt](2a Backend is Successully Deployed.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/2a%20Backend%20is%20Successully%20Deployed.png)
 
 ---
 
@@ -139,7 +139,7 @@ Verified the backend Container App was up and reachable at its Azure-provided UR
 
 Found the backend's Application URL to use as the API base URL for the frontend.
 
-![image alt](2b Finding the Env name for the backend to frontend connection.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/2b%20Finding%20the%20Env%20name%20for%20the%20backend%20to%20frontend%20connection.png)
 
 ---
 
@@ -147,7 +147,7 @@ Found the backend's Application URL to use as the API base URL for the frontend.
 
 Deployed the React frontend on Vercel, setting the backend Azure URL as an environment variable (e.g. `REACT_APP_API_BASE_URL`).
 
-![image alt](2c Deploying the frontend on vercel with env of the backend-url-azure.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/2c%20Deploying%20the%20frontend%20on%20vercel%20with%20env%20of%20the%20backend-url-azure.png)
 
 ---
 
@@ -155,7 +155,7 @@ Deployed the React frontend on Vercel, setting the backend Azure URL as an envir
 
 Confirmed the frontend loads and successfully displays products fetched from the Azure-hosted backend.
 
-![image alt](2d Frontend is Deployed and is showing products from the backend.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/2d%20Frontend%20is%20Deployed%20and%20is%20showing%20products%20from%20the%20backend.png)
 
 ---
 
@@ -163,15 +163,15 @@ Confirmed the frontend loads and successfully displays products fetched from the
 
 ### Adding a Product via the Vercel Frontend
 
-![image alt](6a Adding products via vercel frontend.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/6a%20Adding%20products%20via%20vercel%20frontend.png)
 
 ### Product Added Successfully
 
-![image alt](6b Product is added successfully.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/6b%20Product%20is%20added%20successfully.png)
 
 ### Database Reflects the New Product
 
-![image alt](6c Database is updated as well.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/6c%20Database%20is%20updated%20as%20well.png)
 
 ---
 
