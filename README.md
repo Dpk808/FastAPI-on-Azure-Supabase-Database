@@ -42,7 +42,7 @@ Supabase PostgreSQL Database
 
 Created a resource group in the Azure Portal to hold all project resources.
 
-![image alt](1a Create a RG.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/1a%20Create%20a%20RG.png)
 
 ---
 
@@ -50,7 +50,7 @@ Created a resource group in the Azure Portal to hold all project resources.
 
 Created an ACR instance to store the backend Docker image.
 
-![image alt](1b Create ACR.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/1b%20Create%20ACR.png)
 
 ---
 
@@ -58,7 +58,7 @@ Created an ACR instance to store the backend Docker image.
 
 Enabled the admin user on the ACR and copied the login server, username, and password from **Access keys**.
 
-![image alt](1c Copy ACR Access Keys.png)
+![image alt](https://github.com/Dpk808/FastAPI-on-Azure-Supabase-Database/blob/main/FastAPI%20Screenshots/1c%20Copy%20ACR%20Access%20Keys.png)
 
 ---
 
